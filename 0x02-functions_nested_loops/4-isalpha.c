@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpa - function for checking letters
+ * _isalpha - function for checking letters
  * @c: parameter to be checked
  * Return: retuns 1 and 0
  */
