@@ -9,7 +9,6 @@
 void print_chessboard(char (*a)[8])
 {
 	int row, col;
-	void _putchar(char c);
 
 	for (row = 0; row < 8; row++)
 	{
