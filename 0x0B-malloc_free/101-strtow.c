@@ -6,8 +6,7 @@ int word_len(char *str);
 char **strtow(char *str);
 
 /**
-
- *the first word contained within a string
+ * word_len - the first word contained within a string
  * @str: string
  * Return: Index
  */
