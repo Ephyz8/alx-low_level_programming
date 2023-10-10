@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int print_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
@@ -15,5 +15,4 @@ int print_dog(struct dog *d)
 		printf("Age: %f\n", (d->age) ? d->age : 0);
 		printf("Owner: %s\n", (d->owner) ? d->owner : "(nil)");
 	}
-	return (0);
 }
