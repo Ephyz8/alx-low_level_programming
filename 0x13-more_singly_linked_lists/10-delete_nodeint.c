@@ -20,7 +20,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		ptr = ptr->next;
 	if  (ptr == NULL)
 		return (-1);
-	if (ptr == 0)
+	if (index == 0)
 	{
 		node = ptr->next;
 		free(ptr);
