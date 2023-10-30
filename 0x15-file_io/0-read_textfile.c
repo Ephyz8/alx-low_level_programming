@@ -28,14 +28,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		close(file);
 		return (0);
-	}	
+	}
 	lenr = read(file, buffer, letters);
 	close(file);
-	/*if (lenr == -1)
-	{
-		free(buffer);
-		return(0);
-	}*/
 	lenw = write(STDOUT_FILENO, buffer, lenr);
 	free(buffer);
 	if (lenr != lenw)
