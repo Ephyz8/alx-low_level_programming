@@ -77,4 +77,4 @@ void print_array(int *array, size_t x, size_t y)
 		for (j = x; j < x + (y - x + 1); j++)
 			printf("%d%s", *(array + j), j < x + (y - x) ? ", " : "\n");
 	}
-}
+  
